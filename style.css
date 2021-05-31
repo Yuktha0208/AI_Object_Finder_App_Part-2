@@ -1,0 +1,36 @@
+body{
+    background-size: cover;
+    font-family: 'Dancing Script', cursive;
+}
+
+.heading{
+    margin: 0px;
+    width: 100%;
+    font-size: 23px;
+}
+
+#note{
+    font-size: medium;
+    color: rgb(0, 0, 70);
+}
+
+#start,#number_of_objects,#status{
+    font-size: 18px;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    background-color: plum;
+    color: white;
+}
+
+canvas{
+    border: 2px solid white;
+    border-radius: 25px;
+    margin-top: 60px;
+    box-shadow: 10px 10px 10px white;
+}
